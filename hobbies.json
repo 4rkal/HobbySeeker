@@ -1,0 +1,28 @@
+{
+    "hobbies": [
+        {
+            "name": "Playing Guitar",
+            "time": 15,
+            "interest": "music",
+            "description": "Learn to play the guitar and create beautiful music.",
+            "link": "https://example.com/guitar-lessons",
+            "icon": "fas fa-guitar"
+        },
+        {
+            "name": "Jogging",
+            "time": 30,
+            "interest": "sports",
+            "description": "Enjoy the health benefits of jogging and explore your surroundings.",
+            "link": "https://example.com/jogging-trails",
+            "icon": "fas fa-running"
+        },
+        {
+            "name": "Reading a Book",
+            "time": 30,
+            "interest": "reading",
+            "description": "Immerse yourself in a captivating book and expand your knowledge.",
+            "link": "https://example.com/book-recommendations",
+            "icon": "fas fa-book"
+        }
+    ]
+}
