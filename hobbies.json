@@ -5,7 +5,7 @@
             "time": 15,
             "interest": "music",
             "description": "Learn to play the guitar and create beautiful music.",
-            "link": "https://example.com/guitar-lessons",
+            "link": "https://www.youtube.com/watch?v=-I0iD_bt6Jc",
             "icon": "fas fa-guitar"
         },
         {
@@ -21,7 +21,7 @@
             "time": 30,
             "interest": "reading",
             "description": "Immerse yourself in a captivating book and expand your knowledge.",
-            "link": "https://example.com/book-recommendations",
+            "link": "https://www.goodbooks.io/",
             "icon": "fas fa-book"
         }
     ]
