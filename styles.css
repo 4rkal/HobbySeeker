@@ -9,7 +9,7 @@
 
 .hobby i {
     margin-right: 15px; 
-    font-size: 24px; 
+    font-size: 100px; 
     border-radius: 50%; 
     background-color: #e0e0e0; 
     padding: 10px; 
@@ -62,7 +62,7 @@ button {
     }
 
     .hobby i {
-        font-size: 20px;
+        font-size: 80px;
     }
 
     select,

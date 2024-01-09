@@ -6,7 +6,7 @@
             "interest": "music",
             "description": "Learn to play the guitar and create beautiful music.",
             "link": "https://www.youtube.com/watch?v=-I0iD_bt6Jc",
-            "icon": "fas fa-guitar"
+            "icon": "fas fa-guitar fa-2xl"
         },
         {
             "name": "Jogging",
@@ -14,7 +14,7 @@
             "interest": "sports",
             "description": "Enjoy the health benefits of jogging and explore your surroundings.",
             "link": "https://example.com/jogging-trails",
-            "icon": "fas fa-running"
+            "icon": "fas fa-running fa-2xl"
         },
         {
             "name": "Reading a Book",
@@ -22,7 +22,7 @@
             "interest": "reading",
             "description": "Immerse yourself in a captivating book and expand your knowledge.",
             "link": "https://www.goodbooks.io/",
-            "icon": "fas fa-book"
+            "icon": "fas fa-book fa-2xl"
         }
     ]
 }
