@@ -1,0 +1,7 @@
+[
+    {"name": "Sports", "icon": "fas fa-futbol", "description": "All about sports"},
+    {"name": "Music", "icon": "fas fa-music", "description": "All about music"},
+    {"name": "Travel", "icon": "fas fa-plane", "description": "All about travel"},
+    {"name": "Reading", "icon": "fas fa-book", "description": "All about reading"}
+]
+

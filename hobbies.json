@@ -1,0 +1,18 @@
+[
+    {"category": "Sports", "hobbies": [
+        {"name": "Football", "description": "Playing football in the park", "icon": "fas fa-futbol", "time": "1 hour", "link": "football.html"},
+        {"name": "Basketball", "description": "Shooting hoops with friends", "icon": "fas fa-basketball-ball", "time": "1.5 hours", "link": "basketball.html"}
+    ]},
+    {"category": "Music", "hobbies": [
+        {"name": "Guitar", "description": "Learning to play the guitar", "icon": "fas fa-guitar", "time": "2 hours", "link": "guitar.html"},
+        {"name": "Piano", "description": "Practicing piano melodies", "icon": "fas fa-music", "time": "1.5 hours", "link": "piano.html"}
+    ]},
+    {"category": "Travel", "hobbies": [
+        {"name": "Hiking", "description": "Exploring nature trails. Follow any guided trail", "icon": "fas fa-hiking", "time": "2 hours", "link": "https://www.wikiloc.com/"},
+        {"name": "Photography", "description": "Capturing scenic views", "icon": "fas fa-camera", "time": "3 hours", "link": "https://www.myscenicdrives.com/"}
+    ]},
+    {"category": "Reading", "hobbies": [
+        {"name": "Book Club", "description": "Join your local book club", "icon": "fas fa-book", "time": "1.5 hours", "link": "https://www.google.com/maps/search/library"},
+        {"name": "Book Reading", "description": "Reading novels at home. Choose from thousands of options", "icon": "fas fa-book-open", "time": "1 hour", "link": "https://www.goodreads.com/"}
+    ]}
+]
