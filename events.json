@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Meet Up",
+        "description": "Description for Meet Up",
+        "vetted": true,
+        "mapLink": "https://maps.google.com/?q=Event1Location",
+        "date": "2024-01-25" 
+    },
+    {
+        "title": "Event 2",
+        "description": "Description for Event 2",
+        "vetted": false,
+        "mapLink": "https://maps.google.com/?q=Event2Location",
+        "date": "2024-01-28"
+    }
+]
