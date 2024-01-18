@@ -13,7 +13,6 @@ body {
   margin-right: 0px;
   padding: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  
   cursor: pointer;
 }
 
@@ -46,20 +45,33 @@ body {
   border: none;
   cursor: pointer;
 }
+
 .card .form-check-input:checked + .form-check-label::before {
   background-color: #3333; /* Change this to your desired color for the slider */
 }
+
+.navbar .event-btn {
+  background-color: #3f3b3b; /* Use any color you like */
+  border-radius: 5px;
+  color: #fff; /* This is white color for the text */
+  transition: background-color 0.3s ease; /* This is for the hover effect */
+}
+
+.navbar .event-btn:hover {
+  background-color: #3f3b3bcb; /* This is a darker shade of the original color for the hover effect */
+}
+
 @media screen and (max-width: 600px) {
   .navbar a, .navbar button {
     float: none;
     width: 100%;
     box-sizing: border-box;
     text-align: left;
+    padding: 10px; /* Adjust padding for better spacing on mobile */
   }
 
   .navbar button {
     text-align: right;
+    margin-top: 10px; /* Add margin for better spacing on mobile */
   }
 }
-
-
