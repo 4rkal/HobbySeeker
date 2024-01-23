@@ -4,13 +4,21 @@
         "description": "Description for Meet Up",
         "vetted": true,
         "mapLink": "https://maps.google.com/?q=Event1Location",
-        "date": "2024-01-25" 
+        "date": "2024-01-25",
+        "organizer": {
+            "name": "Student",
+            "email": "student@moraitis.edu.gr"
+        }
     },
     {
         "title": "Event 2",
         "description": "Description for Event 2",
         "vetted": false,
         "mapLink": "https://maps.google.com/?q=Event2Location",
-        "date": "2024-01-28"
+        "date": "2024-01-28",
+        "organizer": {
+            "name": "Jane Smith",
+            "email": "jane.smith@example.com"
+        }
     }
 ]

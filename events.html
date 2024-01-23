@@ -15,8 +15,8 @@
         <a href="..">Hobbies</a>
         <img src="icon.png" style="height: 70px; width: 270px;" alt="Logo">
         <a href="events.html" class="event-btn">Events</a>
-      </div>
-      <button onclick="submitOwnEvent()" class="btn btn-success">Submit Your Own</button>
+    </div>
+    <button onclick="submitOwnEvent()" class="btn btn-success">Submit Your Own</button>
     <div id="events-container" class="mt-4"></div>
 
     <script>
@@ -48,6 +48,7 @@
                                     <div>
                                         <h3>${event.title}</h3>
                                         <p>${event.description}</p>
+                                        <p>Organised by: ${event.organizer.name} (${event.organizer.email})</p>
                                         <p>Verified: ${event.vetted ? '<i class="fas fa-check"></i>' : '<i class="fas fa-times"></i>'}</p>
                                         <a href="${event.mapLink}" target="_blank">Google Maps</a>
                                     </div>
@@ -70,7 +71,7 @@
         }
 
         function submitOwnEvent() {
-            window.location.href = 'https://docs.google.com/forms/d/e/your_google_form_id/viewform'; // Replace with your Google Form URL
+            window.location.href = 'https://forms.office.com/Pages/ResponsePage.aspx?id=qpGH3e3XlkGdt2P9e5hDHtQZPUWMXLpLgBgVyvAFL0lUQllSWktXQ0paSjI3VzlIR0ZCWkRUMzM3RS4u';
         }
     </script>
 </body>
