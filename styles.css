@@ -75,3 +75,41 @@ body {
     margin-top: 10px; /* Add margin for better spacing on mobile */
   }
 }
+
+/* Add styles for forced light mode */
+.force-light-mode body {
+  background-color: #f4f4f4; /* Set your light mode background color */
+  color: #000000; /* Set your light mode text color */
+}
+
+.force-light-mode .card {
+  background-color: whitesmoke;
+  border-color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.force-light-mode .navbar {
+  background-color: whitesmoke;
+}
+
+.force-light-mode .navbar a, .force-light-mode .navbar button {
+  color: #333;
+}
+
+.force-light-mode .navbar button {
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+.force-light-mode .card .form-check-input:checked + .form-check-label::before {
+  background-color: #3333; /* Change this to your desired color for the slider */
+}
+
+.force-light-mode .navbar .event-btn {
+  background-color: #3f3b3b;
+  color: #fff;
+}
+
+.force-light-mode .navbar .event-btn:hover {
+  background-color: #3f3b3bcb;
+}
