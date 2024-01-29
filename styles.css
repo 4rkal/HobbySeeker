@@ -1,85 +1,91 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  padding: 10px;
-  background-color: #f4f4f4;
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f6f8fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .card {
-  background-color: rgb(187, 187, 231);
-  border-radius: 12px;
-  border-color: #333;
-  margin: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  margin-bottom: 20px; /* You can adjust this value for the desired gap */
+  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+
 .navbar {
-  background-color: whitesmoke;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
 .navbar a, .navbar button {
-  float: left;
-  display: block;
-  color: #333;
+  color: #2b3b52;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
+  padding: 12px 20px;
+  display: inline-block;
+  transition: all 0.3s ease;
 }
-.navbar {
-  border-radius: 12px;
+
+.navbar a:hover, .navbar button:hover {
+  background-color: #f4f7f9;
 }
+
 .navbar img {
-  display: block;
-  margin: 0 auto; /* Center the image */
   max-width: 100%;
   height: auto;
+  vertical-align: middle;
 }
 
 .navbar button {
-  float: right;
-  background-color: #333;
-  color: #f2f2f2;
+  background-color: #3a84ff;
+  color: #fff;
   border: none;
   cursor: pointer;
+  float: right;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
-.card .form-check-input:checked + .form-check-label::before {
-  background-color: #3333; /* Change this to your desired color for the slider */
+.navbar button:hover {
+  background-color: #2d6ac8;
+}
+.card.selected {
+  background-color: #e6f2ff; /* Subtle blue color */
 }
 
-.navbar .event-btn {
-  background-color: #3f3b3b; /* Use any color you like */
-  border-radius: 5px;
-  color: #fff; /* This is white color for the text */
-  transition: background-color 0.3s ease; /* This is for the hover effect */
+.card.selected .form-check-label {
+  color: #007bff; /* Blue color for the label */
 }
-
-.navbar .event-btn:hover {
-  background-color: #3f3b3bcb; /* This is a darker shade of the original color for the hover effect */
+.card-body .fa {
+  font-size: 2rem !important;
 }
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .navbar a, .navbar button {
     float: none;
     width: 100%;
-    box-sizing: border-box;
-    text-align: left;
-    padding: 10px; /* Adjust padding for better spacing on mobile */
+    text-align: center;
   }
-
-  .navbar button {
-    text-align: right;
-    margin-top: 10px; /* Add margin for better spacing on mobile */
-  }
+  .card-body .fa {
+    font-size: 2rem !important;
 }
-
-
-.futuristic-bg {
-  background: linear-gradient(180deg, #668491, #5d94a7, #6684FF); /* Gradient background for a futuristic feel */
-  color: #fff; /* White text for contrast */
 }
