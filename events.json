@@ -8,7 +8,8 @@
         "organizer": {
             "name": "Student",
             "email": "student@moraitis.edu.gr"
-        }
+        },
+        "participants" : "Student 1, Student 2"
     },
     {
         "title": "Event 2",
