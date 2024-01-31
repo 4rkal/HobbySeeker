@@ -1,8 +1,10 @@
 [
     {"category": "Sports", "hobbies": [
         {"name": "Rock Climbing", "description": "Conquer indoor rock climbing routes", "icon": "fas fa-mountain", "time": "2 hours", "link": "https://www.indoorclimbing.com/"},
-        {"name": "Ultimate Frisbee", "description": "Enjoy a game of ultimate frisbee with friends", "icon": "fas fa-flying-disc", "time": "1.5 hours", "link": "https://www.usaultimate.org/"} 
-    ]},
+        {"name": "Ultimate Frisbee", "description": "Enjoy a game of ultimate frisbee with friends", "icon": "fas fa-flying-disc", "time": "1.5 hours", "link": "https://www.usaultimate.org/"},
+        {"name": "Surf Lessons", "description": "Take surf lessons to master the art of riding waves", "icon": "fas fa-wave-surf", "time": "2 hours", "link": "https://www.surfline.com/surfing-a-to-z/surf-schools-lessons"},
+        {"name": "Surfboard Shaping", "description": "Craft your own surfboard and learn the art of shaping", "icon": "fas fa-tools", "time": "5 hours", "link": "https://www.surfer.com/how-to-shape-a-surfboard/"} 
+        ]},
     {"category": "Music", "hobbies": [
         {"name": "Songwriting", "description": "Compose your own music and lyrics", "icon": "fas fa-pencil-alt", "time": "2 hours", "link": "https://www.masterclass.com/classes/st-vincent-teaches-creativity-and-songwriting"},
         {"name": "DJing", "description": "Learn the art of DJing and mix your favorite tracks", "icon": "fas fa-headphones", "time": "2 hours", "link": "https://www.udemy.com/courses/search/?src=ukw&q=djing"} 
@@ -92,8 +94,7 @@
         {"name": "Mountain Biking Trails", "description": "Explore thrilling mountain biking trails and terrains", "icon": "fas fa-mountain-biking", "time": "3 hours", "link": "https://www.singletracks.com/"},
         {"name": "Road Cycling Routes", "description": "Embark on scenic road cycling routes for endurance and adventure", "icon": "fas fa-biking", "time": "2 hours", "link": "https://www.mapmyride.com/"} 
     ]},
-    {"category": "Surfing", "hobbies": [
-        {"name": "Surf Lessons", "description": "Take surf lessons to master the art of riding waves", "icon": "fas fa-wave-surf", "time": "2 hours", "link": "https://www.surfline.com/surfing-a-to-z/surf-schools-lessons"},
-        {"name": "Surfboard Shaping", "description": "Craft your own surfboard and learn the art of shaping", "icon": "fas fa-tools", "time": "5 hours", "link": "https://www.surfer.com/how-to-shape-a-surfboard/"} 
+    {"category": "Volunteering", "hobbies": [
+        {"name": "Find volunteering opportunities", "description": "Find the best volunteer opportunities in your city", "icon": "fa-solid fa-handshake-angle", "time": "3 hours", "link": "https://www.volunteermatch.org/"}
     ]}
 ]

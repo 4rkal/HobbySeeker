@@ -22,5 +22,6 @@
     {"name": "Birdwatching", "icon": "fas fa-binoculars", "description": "All about birdwatching"},
     {"name": "Fishing", "icon": "fas fa-fish", "description": "All about fishing"},
     {"name": "Cycling", "icon": "fas fa-bicycle", "description": "All about cycling"},
-    {"name": "Surfing", "icon": "fas fa-wave-surf", "description": "All about surfing"}
+    {"name": "Volunteering", "icon": "fa-solid fa-handshake-angle", "description": "All about volunteering"}
+
 ]
