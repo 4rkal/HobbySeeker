@@ -51,6 +51,7 @@
         .then(response => response.json())
         .then(categories => {
             const categoriesContainer = document.getElementById('categories-container');
+            const selectedCategories = []; // Array to store selected category IDs
 
             function renderCategories(categories) {
                 categoriesContainer.innerHTML = ''; // Clear previous content
@@ -59,12 +60,12 @@
                     const card = document.createElement('div');
                     card.className = 'col-md-4 mb-4 card';
                     card.innerHTML = `
-                        <div class="card-body">
+                        <div class="card-body ${selectedCategories.includes(category.name) ? 'selected' : ''}">
                             <i class="${category.icon} fa-2x"></i>
                             <h5 class="card-title">${category.name}</h5>
                             <p class="card-text">${category.description}</p>
                             <div class="form-check form-switch">
-                                <input class="form-check-input" type="checkbox" id="${category.name}-checkbox">
+                                <input class="form-check-input" type="checkbox" id="${category.name}-checkbox" ${selectedCategories.includes(category.name) ? 'checked' : ''}>
                                 <label class="form-check-label" for="${category.name}-checkbox">Select</label>
                             </div>
                         </div>
@@ -98,16 +99,24 @@
                 const filteredCategories = categories.filter(category => category.name.toLowerCase().includes(searchTerm));
                 renderCategories(filteredCategories);
             });
-        });
 
-    // Toggle card state based on checkbox/slider state
-    function toggleCardState(card, checkbox) {
-        if (checkbox.checked) {
-            card.classList.add('selected');
-        } else {
-            card.classList.remove('selected');
-        }
-    }
+            // Toggle card state based on checkbox/slider state
+            function toggleCardState(card, checkbox) {
+                const categoryName = checkbox.id.replace('-checkbox', '');
+                if (checkbox.checked) {
+                    card.classList.add('selected');
+                    if (!selectedCategories.includes(categoryName)) {
+                        selectedCategories.push(categoryName);
+                    }
+                } else {
+                    card.classList.remove('selected');
+                    const index = selectedCategories.indexOf(categoryName);
+                    if (index !== -1) {
+                        selectedCategories.splice(index, 1);
+                    }
+                }
+            }
+        });
 
     // Event listener for redirect button
     document.getElementById('okButton').addEventListener('click', redirectToHobbies);
