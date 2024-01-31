@@ -65,18 +65,39 @@
                         </div>
                     </div>
                 `;
-                card.addEventListener('click', () => {
-                    card.classList.toggle('selected');
-                    const checkbox = card.querySelector('.form-check-input');
-                    checkbox.checked = !checkbox.checked;
+
+                const checkbox = card.querySelector('.form-check-input');
+
+                // Toggle card state when checkbox/slider changes
+                checkbox.addEventListener('change', () => {
+                    toggleCardState(card, checkbox);
+                });
+
+                // Toggle card state when card is clicked (including slider)
+                card.addEventListener('click', (event) => {
+                    if (event.target !== checkbox && event.target.tagName.toLowerCase() !== 'label') {
+                        checkbox.checked = !checkbox.checked;
+                        toggleCardState(card, checkbox);
+                    }
                 });
 
                 categoriesContainer.appendChild(card);
             });
         });
 
+    // Toggle card state based on checkbox/slider state
+    function toggleCardState(card, checkbox) {
+        if (checkbox.checked) {
+            card.classList.add('selected');
+        } else {
+            card.classList.remove('selected');
+        }
+    }
+
+    // Event listener for redirect button
     document.getElementById('okButton').addEventListener('click', redirectToHobbies);
 
+    // Function to redirect to hobbies page
     function redirectToHobbies() {
         const checkboxes = document.querySelectorAll('.form-check-input:checked');
         const selectedCategories = Array.from(checkboxes).map(checkbox => checkbox.id.replace('-checkbox', ''));
@@ -91,6 +112,15 @@
         }
     }
 </script>
+
+
+
+
+
+
+
+
+
 
 
 </body>
