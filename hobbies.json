@@ -2,8 +2,8 @@
     {"category": "Sports", "hobbies": [
         {"name": "Rock Climbing", "description": "Conquer indoor rock climbing routes", "icon": "fas fa-mountain", "time": "2 hours", "link": "https://www.indoorclimbing.com/"},
         {"name": "Ultimate Frisbee", "description": "Enjoy a game of ultimate frisbee with friends", "icon": "fas fa-flying-disc", "time": "1.5 hours", "link": "https://www.usaultimate.org/"},
-        {"name": "Surf Lessons", "description": "Take surf lessons to master the art of riding waves", "icon": "fas fa-wave-surf", "time": "2 hours", "link": "https://www.surfline.com/surfing-a-to-z/surf-schools-lessons"},
-        {"name": "Surfboard Shaping", "description": "Craft your own surfboard and learn the art of shaping", "icon": "fas fa-tools", "time": "5 hours", "link": "https://www.surfer.com/how-to-shape-a-surfboard/"} 
+        {"name": "Surf Lessons", "description": "Take surf lessons to master the art of riding waves", "icon": "fas fa-wave-surf", "time": "2 hours", "link": "https://www.surfline.com/surf-news/learn-to-surf/32182"},
+        {"name": "Surfboard Shaping", "description": "Craft your own surfboard and learn the art of shaping", "icon": "fas fa-tools", "time": "5 hours", "link": "https://www.surfertoday.com/surfing/how-to-shape-a-surfboard"} 
         ]},
     {"category": "Music", "hobbies": [
         {"name": "Songwriting", "description": "Compose your own music and lyrics", "icon": "fas fa-pencil-alt", "time": "2 hours", "link": "https://www.masterclass.com/classes/st-vincent-teaches-creativity-and-songwriting"},
@@ -18,8 +18,8 @@
         {"name": "Historical Fiction", "description": "Immerse yourself in gripping historical fiction novels", "icon": "fas fa-scroll", "time": "2 hours", "link": "https://www.goodreads.com/genres/historical-fiction"} 
     ]},
     {"category": "Cooking", "hobbies": [
-        {"name": "Thai Cuisine", "description": "Master the art of cooking authentic Thai dishes", "icon": "fas fa-pepper-hot", "time": "2 hours", "link": "https://www.bonappetit.com/recipe/thai-beef-salad"},
-        {"name": "French Pastries", "description": "Learn to bake classic French pastries like croissants", "icon": "fas fa-birthday-cake", "time": "3 hours", "link": "https://www.theguardian.com/lifeandstyle/2013/jun/15/how-to-cook-the-perfect-croissants"} 
+        {"name": "Thai Cuisine", "description": "Master the art of cooking authentic Thai dishes", "icon": "fas fa-pepper-hot", "time": "2 hours", "link": "https://www.bonappetit.com/recipe/khai-jiao"},
+        {"name": "French Pastries", "description": "Learn to bake classic French pastries like croissants", "icon": "fas fa-birthday-cake", "time": "3 hours", "link": "https://www.theflavorbender.com/homemade-french-croissants-step-by-step-recipe/"} 
     ]},
     {"category": "Photography", "hobbies": [
         {"name": "Portrait Photography", "description": "Practice capturing stunning portrait shots", "icon": "fas fa-portrait", "time": "2 hours", "link": "https://www.creativelive.com/photography/portrait-photography"},
@@ -30,7 +30,7 @@
         {"name": "Bonsai Cultivation", "description": "Nurture and shape miniature bonsai trees for relaxation", "icon": "fas fa-tree", "time": "1 hour", "link": "https://www.bonsaiempire.com/"} 
     ]},
     {"category": "Painting", "hobbies": [
-        {"name": "Watercolor Landscapes", "description": "Create vibrant watercolor landscapes inspired by nature", "icon": "fas fa-palette", "time": "2 hours", "link": "https://www.artistsnetwork.com/art-mediums/watercolor/7-tips-painting-watercolor-landscapes/"},
+        {"name": "Watercolor Landscapes", "description": "Create vibrant watercolor landscapes inspired by nature", "icon": "fas fa-palette", "time": "2 hours", "link": "https://www.artistsnetwork.com/medium/watercolor/"},
         {"name": "Abstract Acrylics", "description": "Experiment with abstract acrylic painting techniques", "icon": "fas fa-paint-brush", "time": "1.5 hours", "link": "https://www.artistsnetwork.com/art-mediums/acrylic/how-to-paint-abstract-art/"} 
     ]},
     {"category": "Dancing", "hobbies": [
@@ -38,7 +38,7 @@
         {"name": "Ballet", "description": "Practice grace and precision with ballet techniques", "icon": "fas fa-shoe-prints", "time": "2 hours", "link": "https://www.balletbeautiful.com/"} 
     ]},
     {"category": "Yoga", "hobbies": [
-        {"name": "Ashtanga Yoga", "description": "Follow the challenging sequence of Ashtanga yoga poses", "icon": "fas fa-sun", "time": "1.5 hours", "link": "https://www.yogajournal.com/practice/ashtanga-yoga/"},
+        {"name": "Ashtanga Yoga", "description": "Follow the challenging sequence of Ashtanga yoga poses", "icon": "fas fa-sun", "time": "1.5 hours", "link": "https://www.yogabasics.com/learn/ashtanga-yoga/"},
         {"name": "Yin Yoga", "description": "Relax deeply with slow-paced yin yoga stretches", "icon": "fas fa-moon", "time": "1 hour", "link": "https://www.doyou.com/yin-yoga/"} 
     ]},
     {"category": "Hiking", "hobbies": [
@@ -46,13 +46,13 @@
         {"name": "Nature Photography", "description": "Capture stunning landscapes and wildlife along hiking trails", "icon": "fas fa-camera-retro", "time": "3 hours", "link": "https://www.photographylife.com/"} 
     ]},
     {"category": "Board Games", "hobbies": [
-        {"name": "Settlers of Catan", "description": "Strategize and trade resources in the popular game Settlers of Catan", "icon": "fas fa-cube", "time": "2 hours", "link": "https://www.catan.com/game/settlers-catan"
+        {"name": "Settlers of Catan", "description": "Strategize and trade resources in the popular game Settlers of Catan", "icon": "fas fa-cube", "time": "2 hours", "link": "https://www.catan.com/"
 },
         {"name": "Ticket to Ride", "description": "Embark on a cross-country train adventure in Ticket to Ride", "icon": "fas fa-train", "time": "1.5 hours", "link": "https://www.daysofwonder.com/tickettoride/en/"} 
     ]},
     {"category": "Chess", "hobbies": [
-        {"name": "Sicilian Defense", "description": "Learn the strategic Sicilian Defense opening in chess", "icon": "fas fa-chess-knight", "time": "2 hours", "link": "https://www.youtube.com/watch?v=_h3-5zmXlX4"},
-        {"name": "Ruy Lopez Opening", "description": "Master the classic Ruy Lopez opening and its variations", "icon": "fas fa-chess-rook", "time": "2 hours", "link": "https://www.youtube.com/watch?v=T0wDxZ9WfDQ"} 
+        {"name": "Sicilian Defense", "description": "Learn the strategic Sicilian Defense opening in chess", "icon": "fas fa-chess-knight", "time": "2 hours", "link": "https://www.youtube.com/watch?v=qM4e7g2RukI"},
+        {"name": "Ruy Lopez Opening", "description": "Master the classic Ruy Lopez opening and its variations", "icon": "fas fa-chess-rook", "time": "2 hours", "link": "https://www.youtube.com/watch?v=IQrtrPvU3bQ"} 
     ]},
     {"category": "Collecting", "hobbies": [
         {"name": "Stamp Collecting", "description": "Explore the world through unique and rare stamps", "icon": "fas fa-stamp", "time": "1 hour", "link": "https://www.stampworld.com/"},
@@ -63,19 +63,19 @@
         {"name": "Poetry Writing", "description": "Craft expressive poetry inspired by personal experiences", "icon": "fas fa-feather", "time": "1.5 hours", "link": "https://www.poetryfoundation.org/learn"} 
     ]},
     {"category": "Drawing", "hobbies": [
-        {"name": "Pen and Ink Sketching", "description": "Master the art of detailed pen and ink sketches", "icon": "fas fa-pen-nib", "time": "2 hours", "link": "https://www.artistsnetwork.com/art-techniques/pen-ink-sketching/"},
-        {"name": "Charcoal Portraits", "description": "Create expressive charcoal portraits with dynamic shading", "icon": "fas fa-portrait", "time": "2 hours", "link": "https://www.artistsnetwork.com/art-techniques/charcoal-portraits/"} 
+        {"name": "Pen and Ink Sketching", "description": "Master the art of detailed pen and ink sketches", "icon": "fas fa-pen-nib", "time": "2 hours", "link": "https://www.pinterest.com/jesse9856/pen-ink-drawing/"},
+        {"name": "Charcoal Portraits", "description": "Create expressive charcoal portraits with dynamic shading", "icon": "fas fa-portrait", "time": "2 hours", "link": "https://www.louissmithart.com/art-gallery/charcoal-portraits/"} 
     ]},
     {"category": "Sculpting", "hobbies": [
-        {"name": "Clay Sculptures", "description": "Shape intricate clay sculptures inspired by nature", "icon": "fas fa-hand-rock", "time": "3 hours", "link": "https://www.artistsnetwork.com/art-techniques/sculpture/how-to-sculpt-clay-sculpture/"},
+        {"name": "Clay Sculptures", "description": "Shape intricate clay sculptures inspired by nature", "icon": "fas fa-hand-rock", "time": "3 hours", "link": "https://www.wikihow.com/Sculpt-Clay"},
         {"name": "Wood Carving", "description": "Carve beautiful designs and figures from wood blocks", "icon": "fas fa-tree", "time": "2.5 hours", "link": "https://www.woodcarvingillustrated.com/"} 
     ]},
     {"category": "Calligraphy", "hobbies": [
         {"name": "Modern Calligraphy", "description": "Practice modern calligraphy styles and techniques", "icon": "fas fa-feather-alt", "time": "2 hours", "link": "https://www.thehappyevercrafter.com/"},
-        {"name": "Copperplate Script", "description": "Learn the elegant Copperplate script with pointed pen", "icon": "fas fa-scroll", "time": "2.5 hours", "link": "https://www.calligraphy-skills.com/copperplate-calligraphy/"} 
+        {"name": "Copperplate Script", "description": "Learn the elegant Copperplate script with pointed pen", "icon": "fas fa-scroll", "time": "2.5 hours", "link": "https://www.lettering-daily.com/copperplate-calligraphy/"} 
     ]},
     {"category": "DIY Projects", "hobbies": [
-        {"name": "Furniture Restoration", "description": "Restore antique furniture pieces to their former glory", "icon": "fas fa-chair", "time": "3 hours", "link": "https://www.familyhandyman.com/woodworking/furniture-repair/how-to-restore-old-wood-furniture/"},
+        {"name": "Furniture Restoration", "description": "Restore antique furniture pieces to their former glory", "icon": "fas fa-chair", "time": "3 hours", "link": "https://www.wikihow.com/Restore-Wooden-Furniture"},
         {"name": "Upcycled Crafts", "description": "Create unique crafts from recycled materials", "icon": "fas fa-recycle", "time": "2 hours", "link": "https://www.diyncrafts.com/24347/repurpose/40-creative-diy-project-ideas-repurposed-items"} 
     ]},
     {"category": "Meditation", "hobbies": [
@@ -83,12 +83,12 @@
         {"name": "Loving-Kindness Meditation", "description": "Foster compassion and goodwill with loving-kindness meditation", "icon": "fas fa-heart", "time": "20 minutes", "link": "https://www.sharonsalzberg.com/lovingkindness/"} 
     ]},
     {"category": "Birdwatching", "hobbies": [
-        {"name": "Bird Feeding Station", "description": "Set up a bird feeding station in your backyard for birdwatching", "icon": "fas fa-seedling", "time": "1 hour", "link": "https://www.audubon.org/how-to/attract-birds-feeding-station"},
+        {"name": "Bird Feeding Station", "description": "Set up a bird feeding station in your backyard for birdwatching", "icon": "fas fa-seedling", "time": "1 hour", "link": "https://www.audubon.ohttps://www.thisoldhouse.com/house-one/21237658/build-a-birdhouse"},
         {"name": "Birding Hotspots", "description": "Explore renowned birding hotspots for diverse bird species", "icon": "fas fa-binoculars", "time": "2 hours", "link": "https://ebird.org/hotspots"} 
     ]},
     {"category": "Fishing", "hobbies": [
-        {"name": "Fly Fishing", "description": "Master the art of fly fishing in freshwater streams and rivers", "icon": "fas fa-fish", "time": "4 hours", "link": "https://www.orvis.com/fly-fishing-guide"},
-        {"name": "Deep Sea Fishing", "description": "Embark on deep sea fishing adventures for big game fish", "icon": "fas fa-fish", "time": "6 hours", "link": "https://www.sportfishingmag.com/deep-sea-fishing/"} 
+        {"name": "Fly Fishing", "description": "Master the art of fly fishing in freshwater streams and rivers", "icon": "fas fa-fish", "time": "4 hours", "link": "https://howtoflyfish.orvis.com/"},
+        {"name": "Deep Sea Fishing", "description": "Embark on deep sea fishing adventures for big game fish", "icon": "fas fa-fish", "time": "6 hours", "link": "https://fishingbooker.com/blog/beginners-guide-deep-sea-fishing/"} 
     ]},
     {"category": "Cycling", "hobbies": [
         {"name": "Mountain Biking Trails", "description": "Explore thrilling mountain biking trails and terrains", "icon": "fas fa-mountain-biking", "time": "3 hours", "link": "https://www.singletracks.com/"},
