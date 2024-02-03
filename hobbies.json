@@ -96,5 +96,10 @@
     ]},
     {"category": "Volunteering", "hobbies": [
         {"name": "Find volunteering opportunities", "description": "Find the best volunteer opportunities in your city", "icon": "fa-solid fa-handshake-angle", "time": "3 hours", "link": "https://www.volunteermatch.org/"}
+    ]},
+    {"category": "Coding", "hobbies": [
+        {"name": "Learn to code", "description": "Learn to code for free", "icon": "fa-solid fa-code", "time": "3 hours", "link": "https://www.freecodecamp.org/"},
+        {"name": "Harvards introduction to Computer Science", "description": "Learn how to code from harvard on edx", "icon": "fa-solid fa-code", "time": "3 hours", "link": "https://cs50.edx.org/"}
+
     ]}
 ]

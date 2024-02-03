@@ -1,25 +1,14 @@
 [
     {
-        "title": "Meet Up",
-        "description": "Description for Meet Up",
+        "title": "First Lego League Greece",
+        "description": "Στο FIRST® LEGO® League Challenge οι ομάδες εμπλέκονται στην έρευνα, την επίλυση προβλημάτων, τον προγραμματισμό και την ρομποτική. Κατασκευάζουν και προγραμματίζουν ένα ρομπότ LEGO® Education SPIKE™ Prime ή LEGO MINDSTORMS® που εκτελεί αποστολές στην θεματική πίστα του Robot Game. Επίσης διενεργούν ένα Project Καινοτομίας στο οποίο προτείνουν λύση σε ένα επιστημονικό πρόβλημα σχετικό με την θεματική της σεζόν.",
         "vetted": true,
-        "mapLink": "https://maps.google.com/?q=Event1Location",
-        "date": "2024-01-25",
+        "mapLink": "https://maps.app.goo.gl/fccsYUxyeQFk4TQf9",
+        "date": "2024-02-02",
         "organizer": {
-            "name": "Student",
+            "name": "First Lego League Greece",
             "email": "student@moraitis.edu.gr"
         },
-        "participants" : "Student 1, Student 2"
-    },
-    {
-        "title": "Event 2",
-        "description": "Description for Event 2",
-        "vetted": false,
-        "mapLink": "https://maps.google.com/?q=Event2Location",
-        "date": "2024-01-28",
-        "organizer": {
-            "name": "Student2",
-            "email": "student@moraitis.edu.gr"
-        }
+        "participants" : "Aristomenis Kaloudis"
     }
 ]
